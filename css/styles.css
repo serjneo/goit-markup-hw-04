@@ -147,7 +147,7 @@ img {
   fill: var(--accent-color);
 }
 .tel-link.link:hover .logo-img,
-.tel-link.link:focus .logo-img{
+.tel-link.link:focus .logo-img {
   fill: var(--accent-color);
 }
 .site-nav .link.current {
@@ -177,11 +177,14 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/bg-hero.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--footer-color);
@@ -319,6 +322,7 @@ img {
   padding-bottom: 30px;
   text-align: center;
   background-color: var(--background-color);
+  border-radius: 4px;
 }
 .team-list-item {
   flex-basis: calc(100% / 4 - 30px);
@@ -370,7 +374,7 @@ img {
   padding-bottom: var(--accent-padding-bottom);
 }
 .clients-icon-link:hover .clients-logo,
-.clients-icon-link:focus .clients-logo{
+.clients-icon-link:focus .clients-logo {
   fill: var(--accent-color);
 }
 .clients-icon-link:hover,
@@ -510,8 +514,11 @@ img {
   margin-left: 30px;
   margin-top: 30px;
 }
-.projects-list-card:hover,
-.projects-list-card:focus {
+.projects-card {
+  display: block;
+}
+.projects-card:hover,
+.projects-card:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .card {
@@ -521,6 +528,3 @@ img {
   border-left: 1px solid var(--border-cards);
 }
 /*END PORTFOLIO*/
-
-
-
